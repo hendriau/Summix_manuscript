@@ -4,7 +4,7 @@ R scripts and data used for the Summix manuscript analysis.
 ### ancestry_adjusted_datasets
 Example data sets which adjust gnomAD AFs to a homogenous AFR or admixed Peruvian sample.
 
-### Bootstrap
+### bootstrap
 *block_bootstrap.R*: Functions which perform the block bootstrap of exome/genome data.
 
 *source_called.R*: An example script which executes the block bootstrap functions with example variables.
