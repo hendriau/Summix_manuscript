@@ -13,8 +13,8 @@ testnum = 1000
 ntot = 10000
 
 # Load in reference data and paramaters
-load("referencedata/reference1000GNAM.Rdata")
-parameters = read.csv("parameters/5_anc_parameters.txt", sep="")
+load("/referencedata/reference1000GNAM.Rdata")
+parameters = read.csv("/parameters/5_anc_parameters.txt", sep="")
 
 # Set limits for each cluster core
 nodecontrol = ceiling(dim(parameters)[1]/20)
@@ -228,5 +228,5 @@ for (m in testint[1]:testint[2]){
 
 # Write output to text file
 write.table(finalframe,
-            file = paste("5ancestry/anc",dim(AncFrame)[2], "_testnum_", ivalnum, ".txt", sep = ''),
+            file = paste("/5ancestry/anc",dim(AncFrame)[2], "_testnum_", ivalnum, ".txt", sep = ''),
             row.names = FALSE)
