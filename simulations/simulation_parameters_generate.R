@@ -108,7 +108,7 @@ result = tframe[!duplicated(t(apply(r1, 1, sort))),]
 
 # write result
 write.table(result,
-            file = '/nfs/storage/math/gross-s2/projects/mixtures/simulations/simV2/parameters/2_anc_parameters.txt',
+            file = '/parameters/2_anc_parameters.txt',
             row.names = FALSE)
 
 # parameter file for 1 ancestry simulaitons
@@ -120,5 +120,5 @@ ancone = data.frame(
 )
 
 write.table(ancone,
-            file = '/nfs/storage/math/gross-s2/projects/mixtures/simulations/simV2/parameters/1_anc_parameters.txt',
+            file = '/parameters/1_anc_parameters.txt',
             row.names = FALSE)
