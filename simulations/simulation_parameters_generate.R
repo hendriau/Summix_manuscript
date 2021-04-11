@@ -1,7 +1,5 @@
 ## Simulation code
-## Last editted: Ian Arriaga MacKenzie
 
-install.packages('gtools')
 library(gtools)
 library(dplyr)
 library(tidyr)
