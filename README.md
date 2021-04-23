@@ -1,4 +1,4 @@
-## Summix_manuscript
+## Summix
 R scripts and example data used for the Summix manuscript.
 
 #### ancestry_adjusted_data
