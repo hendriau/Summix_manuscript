@@ -2,10 +2,10 @@
 R scripts and example data used for the Summix manuscript.
 
 #### ancestry_adjusted_data
-Example ancestry adjusted datasets for gnomAD AFR/AMR AFs matched to 1000G AFR/PEL populations.
+Ancestry adjusted AF results for gnomAD AFR/AMR AFs matched to 1000G AFR/PEL populations.
 
 #### summix_data
-Example Summix data to estimate ancestry within gnomAD groups, using 1000G reference panel.
+GnomAD exome and genome data merged with 1000G reference data and filtered to MAF>1% for at least one reference group and gnomAD group. This data was used to estimate ancestry proportions for the 2021 manuscript (https://www.biorxiv.org/content/10.1101/2021.02.03.429446v1). 
 
 #### R Scripts
 *block_bootstrap.R*: Functions which perform the block bootstrap analysis of exome/genome data.
