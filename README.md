@@ -1,5 +1,5 @@
 ## Summix
-R scripts and example data used for the Summix manuscript.
+R scripts, data, and results used for the Summix manuscript.
 
 #### ancestry_adjusted_data
 Ancestry adjusted AF results for gnomAD AFR/AMR AFs matched to 1000G AFR/PEL populations.
