@@ -1,4 +1,4 @@
-## Data Dictionary for merged gnomAD and 1000G data
+## Data dictionary for merged gnomAD and 1000G data
 July 14, 2021
 
 | **Name** | **Definition** |
