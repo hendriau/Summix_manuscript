@@ -3,7 +3,7 @@ July 14, 2021
 
 | **Name** | **Definition** |
 | --- | --- |
-| RSID | rsID per variant |
+| RSID | Reference SNP ID |
 | cM_Block | Tag identifier to group centimorgan blocks within chromosome |
 | CHR | Chromosome |
 | POS | Position |
